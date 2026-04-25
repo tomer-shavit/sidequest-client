@@ -26,15 +26,11 @@
 curl -fsSL https://get.trysidequest.ai/install.sh | bash
 ```
 
-Installs the plugin into Claude Code and the native macOS notification app. macOS 13+ required.
-
-After install, sign in:
-
-```
-/sidequest:sq-login
-```
+Installs the plugin into Claude Code, downloads the native macOS notification app, and runs Google OAuth (browser opens). macOS 13+ required.
 
 That's it. Quests appear when context says they're useful.
+
+> **Want to read the script before running it?** `curl https://get.trysidequest.ai/install.sh` (without piping to bash) prints the source. The same script also lives at [`scripts/install.sh`](scripts/install.sh) in this repo for GitHub-side audit.
 
 ---
 
